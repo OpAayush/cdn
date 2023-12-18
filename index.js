@@ -93,6 +93,6 @@ app.post("/upload", upload.array("images", 10), (req, res) => {
 });
 
 // Dynamically load all images in /img
-app.listen(80, () => {
+app.listen(3000, () => {
   console.log("Server is running on port 80");
 });
